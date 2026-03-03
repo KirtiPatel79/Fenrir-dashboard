@@ -11,9 +11,9 @@ import {
   SearchAlert,
 } from "lucide-react";
 import Sidebar from "../components/Sidebar";
-import StatusBadge from "../components/Statusbadge";
+import StatusBadge from "../components/StatusBadge";
 import VulnBadges from "../components/VulnBadge";
-import { orgStats, severityData, scans } from "../data/mockdata";
+import { orgStats, severityData, scans } from "../data/mockData";
 
 export default function Dashboard() {
   const navigate = useNavigate();

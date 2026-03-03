@@ -6,13 +6,10 @@ import {
   FlaskConical,
   CheckCircle,
   FileText,
-  Minus,
-  Square,
-  X,
   ListCollapse,
 } from "lucide-react";
 import Sidebar from "../components/Sidebar";
-import { scanSteps, scanMeta, activityLogs, findings, footerStats } from "../data/mockdata";
+import { scanSteps, scanMeta, activityLogs, findings, footerStats } from "../data/mockData";
 
 const STEP_ICONS = [Search, Map, FlaskConical, CheckCircle, FileText];
 
